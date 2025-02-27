@@ -14,7 +14,7 @@ let itemToFind = prompt ("inserisci un indirizzo email");
 
 console.log("indirizzo email inserito dall'utente:" + ' ' + itemToFind);
 
-//dichiaro una variabile per tracciare lo status della ricerca
+//create a variable that allows me to keep track of the status
 let found = false;
 
 //create a for cicle to verify if the inserted email is present inside the array
@@ -25,7 +25,7 @@ for (i = 0; i < email.length; i++) {
     }
 }
 
-//stampo l'esito
+//print the result
 if (found){
     alert ("la mail è presente nell'array")
 } else {
